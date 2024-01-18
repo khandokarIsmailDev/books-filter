@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "name":"Anna Karenina",
+        "by":"Leo Tolstoy",
+        "price":68,
+        "image":"/anna.jpg",
+        "isFavorite":false,
+        "year":1998
+    },
+    {
+        "id":2,
+        "name":"Madame Bovary",
+        "by":"Gustave Flaubert",
+        "price":168,
+        "image":"/madame.jpg",
+        "isFavorite":false,
+        "year":1887
+    },
+    {
+        "id":3,
+        "name":"War and Peace",
+        "by":"Leo Tolstoy",
+        "price":98,
+        "image":"/war.jpg",
+        "isFavorite":false,
+        "year":1999
+    },
+    {
+        "id":4,
+        "name":"The Great Gatsby",
+        "by":"Scott Fitzgerald",
+        "price":71,
+        "image":"/theGreat.jpg",
+        "isFavorite":false,
+        "year":1753
+    },
+    {
+        "id":5,
+        "name":"Lolita",
+        "by":"Vladimir Nabokov",
+        "price":38,
+        "image":"/lolita.jpg",
+        "isFavorite":false,
+        "year":1730
+    },
+    {
+        "id":6,
+        "name":"Middlemarch",
+        "by":"George Eliot",
+        "price":54,
+        "image":"/middlemarch.jpg",
+        "isFavorite":false,
+        "year":1680
+    },
+    {
+        "id":7,
+        "name":"The Adventures",
+        "by":"Mark Twain",
+        "price":29,
+        "image":"/theadventure.jpg",
+        "isFavorite":false,
+        "year":1976
+    },
+    {
+        "id":8,
+        "name":"The Stories of Anton",
+        "by":"Anton Chekhov",
+        "price":79,
+        "image":"/theStoriess.jpg",
+        "isFavorite":false,
+        "year":1862
+    },
+    {
+        "id":9,
+        "name":"In Search of Lost Time",
+        "by":"Marcel Proust",
+        "price":44,
+        "image":"/inSearchh.jpg",
+        "isFavorite":false,
+        "year":2010
+    },
+    {
+        "id":10,
+        "name":"Hamlet",
+        "by":"William Shakespeare",
+        "price":99,
+        "image":"/Hamlet.jpg",
+        "isFavorite":false,
+        "year":1791
+    }
+]
