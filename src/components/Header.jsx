@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../assets/logo.png'
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         <a href="/">
           <img
             className="max-w-[100px] md:max-w-[165px]"
-            src="/lws-logo-en.svg"
+            src={Logo}
             alt="Lws"
           />
         </a>

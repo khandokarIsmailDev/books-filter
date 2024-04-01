@@ -7,9 +7,9 @@ const BookList = ({ bookList,onFav }) => {
     <div className="container mx-auto grid grid-cols-1 gap-8 max-w-7xl md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
       {bookList.map((book) => (
-        <div key={book.id} className="space-y-3">
+        <div key={book.id} className="space-y-3 border px-3 shadow-lg pb-3 rounded-lg">
           {/* thumbnail */}
-          <div className="flex items-center justify-center rounded-md border border-[#324251]/30 bg-white p-4">
+          <div className="flex items-center justify-center    bg-white p-4">
             <img className="max-w-[144px]" src={book['image']} alt="book name" />
           </div>
           {/* info */}
@@ -33,7 +33,7 @@ const BookList = ({ bookList,onFav }) => {
               {/* stars ends */}
             </div>
             <div className="flex items-center gap-3 text-xs lg:text-sm">
-              <button className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#1C4336] py-1.5 text-white transition-all hover:opacity-80 lg:py-1.5">
+              <button className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#00C3FF] py-1.5 text-white transition-all hover:opacity-80 lg:py-1.5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -50,7 +50,7 @@ const BookList = ({ bookList,onFav }) => {
                 </svg>
                 Add to Cart
               </button>
-              <button className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#1C4336]/[14%] py-1.5 text-[#1C4336] transition-all hover:bg-[#1C4336]/[24%] lg:py-1.5"
+              <button className="flex min-w-[132px] text-base font-medium items-center justify-center gap-1 rounded-md bg-[#1C4336]/[14%] py-1.5 text-[#1C4336] transition-all hover:bg-[#1C4336]/[24%] lg:py-1.5"
               onClick={()=>onFav(book.id)}
               >
               <MdOutlineFavorite color={book.isFavorite?"red":"black"} />
